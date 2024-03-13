@@ -1,4 +1,4 @@
-const Bottle = ({bottle}) => {
+const Bottle = ({bottle,handleLoadData}) => {
     const {title, image, price, rating, stock, tag, description,color, size} = bottle;
   return (
     <div className="card card-compact w-[300px] bg-base-100 shadow-xl">
@@ -11,8 +11,9 @@ const Bottle = ({bottle}) => {
       <div className="card-body">
         <h2 className="card-title">{title}</h2>
         <p>{description}</p>
+        <p>Price: {price}</p>
         <div className="card-actions justify-end">
-          <button className="btn btn-primary">Buy Now</button>
+          <button onClick={() =>handleLoadData(bottle)} className="btn btn-primary">Buy Now</button>
         </div>
       </div>
     </div>
