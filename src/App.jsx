@@ -14,7 +14,8 @@ function App() {
         .then(data => setBottles(data))
     },[])
   const handleLoadData = bottle => {
-    setSingleBottle(prevBottles => [...prevBottles, bottle]);
+    const newCart = [...singleBottle, bottle]
+    setSingleBottle(newCart);
 
 }
   return (

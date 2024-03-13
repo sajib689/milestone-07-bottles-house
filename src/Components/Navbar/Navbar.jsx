@@ -1,34 +1,31 @@
 import { FaShoppingCart } from "react-icons/fa";
 
 const Navbar = ({ singleBottle }) => {
-  console.log(singleBottle)
+  console.log(singleBottle.length)
   return (
     <div className="navbar bg-base-200">
       <div className="flex-1">
         <a className="btn btn-ghost text-xl">Bottle House</a>
       </div>
       <div className="flex-none gap-2">
-        <div className="form-control">
-          <input
-            type="text"
-            placeholder="Search"
-            className="input input-bordered w-24 md:w-auto"
-          />
-        </div>
+       
         <div className="dropdown dropdown-end">
           <div
             tabIndex={0}
             role="button"
-            className="btn btn-ghost btn-circle avatar"
+            className=""
           >
-            <div className="w-10 rounded-full ">
+            <div className="w-40 rounded-full ">
+           <div className="flex justify-center items-center">
+           
               <button
-                className="btn"
+                className="btn "
                 onClick={() =>
                   document.getElementById("my_modal_1").showModal()}
               >
-                <FaShoppingCart className="text-xl" />
+               <FaShoppingCart className="text-xl" /><p>{singleBottle.length}</p>
               </button>
+           </div>
               <dialog id="my_modal_1" className="modal">
                 {singleBottle.map((bottle, index) => (
                   <div className="modal-box" key={index}>
