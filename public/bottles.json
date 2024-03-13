@@ -1,0 +1,69 @@
+[
+    {
+      "image": "https://static-01.daraz.com.bd/p/4ad09c482c97936060a121c94900e389.jpg_300x0q75.webp",
+      "title": "HydroChill Insulated Water Bottle",
+      "price": 19.99,
+      "stock": 50,
+      "rating": 4.5,
+      "tag": "Insulated",
+      "description": "Keep your beverages cold for up to 24 hours with this premium insulated water bottle. Perfect for outdoor activities and sports.",
+      "color": "Blue",
+      "size": "24 oz"
+    },
+    {
+      "image": "https://bd-live-21.slatic.net/kf/S61eca7b3fe4647f2bf3c7ceefd33f8acF.jpg_300x0q75.webp",
+      "title": "AquaWave BPA-Free Water Bottle",
+      "price": 12.49,
+      "stock": 100,
+      "rating": 4.2,
+      "tag": "BPA-Free",
+      "description": "Stay hydrated on the go with our BPA-free water bottle. Features a flip-top lid and a convenient carry handle.",
+      "color": "Green",
+      "size": "32 oz"
+    },
+    {
+      "image": "https://static-01.daraz.com.bd/p/e5c7a849cbe527b0e892399285ff1319.jpg_300x0q75.webp",
+      "title": "EcoHydrate Stainless Steel Water Bottle",
+      "price": 24.99,
+      "stock": 30,
+      "rating": 4.8,
+      "tag": "Stainless Steel",
+      "description": "Durable and eco-friendly stainless steel water bottle. Double-walled construction keeps drinks hot or cold for hours.",
+      "color": "Silver",
+      "size": "20 oz"
+    },
+    {
+      "image": "https://static-01.daraz.com.bd/p/b51685d022388b3cec81c90ce6468294.jpg_300x0q75.webp",
+      "title": "Tritan Sports Water Bottle",
+      "price": 9.99,
+      "stock": 80,
+      "rating": 4.0,
+      "tag": "Sports",
+      "description": "Specially designed for athletes, this sports water bottle is lightweight, durable, and leak-proof. Perfect for workouts.",
+      "color": "Red",
+      "size": "18 oz"
+    },
+    {
+      "image": "https://static-01.daraz.com.bd/p/1f03dea432c267d168c534c288b89772.jpg_300x0q75.webp",
+      "title": "Glass Oasis Water Bottle",
+      "price": 16.99,
+      "stock": 20,
+      "rating": 4.6,
+      "tag": "Glass",
+      "description": "Experience the purity of drinking from glass with our stylish and eco-friendly glass water bottle. Silicone sleeve for added protection.",
+      "color": "Clear",
+      "size": "16 oz"
+    },
+    {
+      "image": "https://static-01.daraz.com.bd/p/b3f312816a9c3ac1d3ab06fda209527e.jpg_300x0q75.webp",
+      "title": "Infuser Water Bottle",
+      "price": 14.99,
+      "stock": 60,
+      "rating": 4.3,
+      "tag": "Infuser",
+      "description": "Create your own flavored water with this infuser water bottle. Simply add fruits, herbs, or vegetables to infuse your water with natural flavors.",
+      "color": "Purple",
+      "size": "25 oz"
+    }
+  ]
+  
